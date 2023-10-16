@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./style.css" />
+  <title>Starbucks Coffee</title>
+</head>
+
+<body>
+  <section>
+    <div class="circle"></div>
+    <header>
+      <a href="#"><img src="./img/logo.png" alt="" /></a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">What's New</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="textbox">
+        <h2>
+          It's not just Coffee<br />
+          It's <span class="span">Starbucks</span>
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Perspiciatis laudantium autem cupiditate numquam. Soluta debitis
+          placeat voluptatem tenetur at omnis porro ipsa perspiciatis
+          aspernatur pariatur. Unde alias fugit aperiam. Voluptatem.
+        </p>
+        <a href="#" class="button">Learn more</a>
+      </div>
+      <div class="imgbox">
+        <img src="./img/img1.png" class="starbucks" />
+      </div>
+    </div>
+    <ul class="thumb">
+      <li>
+        <img src="./img/thumb3.png" onclick="imgSlider('./img/img3.png'); changeCircleColor('#d752b1'); changeColor('#d752b1'); changetext('#d752b1')"/>
+      </li>
+      <li>
+        <img src="./img/thumb1.png" onclick="imgSlider('./img/img1.png'); changeCircleColor('#017432'); changeColor('#017432'); changetext('#017432')"/>
+      </li>
+      <li>
+        <img src="./img/thumb2.png" onclick="imgSlider('./img/img2.png'); changeCircleColor('#eb7495'); changeColor('#eb7495'); changetext('#eb7495')"/>
+      </li>
+    </ul>
+    <ul class="sci">
+      <li>
+        <a href="#"><img src="./img/facebook.png" alt="" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="./img/twitter.png" alt="" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="./img/instagram.png" alt="" /></a>
+      </li>
+    </ul>
+  </section>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
